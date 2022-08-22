@@ -1,19 +1,12 @@
 import React from 'react'
-import { Figure, Container, Card, Row, Col } from 'react-bootstrap'
+import { Image, Figure, Container, Card, Row, Col } from 'react-bootstrap'
 
 const AboutPage = () => {
     return (
         <Container>
             <Row>
                 <Col>
-                    <Figure>
-                        <Figure.Image
-                            width={171}
-                            height={180}
-                            alt="171x180"
-                            src="../../public/selfie.jpg"
-                        />
-                    </Figure>
+                    <Image src="../../public/selfie.jpg" alt="photo of me" />
                 </Col>
                 <Col>
                     <Card style={{ width: '18rem' }}>
